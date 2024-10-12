@@ -1,0 +1,126 @@
+/* google fonts */
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* navbar atyles */
+nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* shared styles */
+.text-primary {
+    color: #FD6E0A;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.btn {
+    cursor: pointer;
+    color: white;
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+nav>ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-tittle {
+    font-size: 45px;
+    font-weight: 800;
+    margin: 0;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn-png {
+    margin-right: 10px;
+}
+
+.btn-2 {
+    color: #FD6E0A;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    background-color: white;
+
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.btn2-png {
+    margin-right: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.banner-text>h4 {
+    margin: 0;
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-text>h1 {
+    margin: 0;
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-text > p{
+    margin: 0;
+    color: var(--Dark-03, #757575);
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+header{
+    background-color: #FFF8F3;
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position:left, bottom right;
+    
+}
+.banner{
+    display: flex;
+    gap: 150px;
+   align-items: center;
+   width: 90%;
+   margin-left: auto;
+}
+
+.hardy {
+    padding-right: 35px;
+    line-height: 0;
+}
+
